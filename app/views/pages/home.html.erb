@@ -1,2 +1,1139 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="bg">
+  <!-- Header Start Here -->
+  <header>
+    <nav class="navbar navbar-expand-lg d-m">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo-light.svg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Home
+              </a>
+              <div class="dropdown-menu px-3 rounded-3 border-0 shadow">
+                <ul>
+                  <li><a class="dropdown-item" href="#">Home 1</a></li>
+                  <li><a class="dropdown-item" href="#">Home 2</a></li>
+                  <li><a class="dropdown-item" href="#">Home 3</a></li>
+                  <li><a class="dropdown-item" href="#">Home 4</a></li>
+                  <li><a class="dropdown-item" href="#">Home 5</a></li>
+                  <li><a class="dropdown-item" href="#">Home 6</a></li>
+                  <li><a class="dropdown-item" href="#">Home 7</a></li>
+                  <li><a class="dropdown-item" href="#">Home 8</a></li>
+                  <li><a class="dropdown-item" href="#">Home 9</a></li>
+                  <li><a class="dropdown-item" href="#">Home 10</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+              </a>
+              <div class="dropdown-menu dropdown-nav-tabs px-3 rounded-3 border-0 shadow">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="hotel-tab" data-bs-toggle="tab" data-bs-target="#hotel" type="button" role="tab" aria-controls="hotel" aria-selected="hotel">Hotel</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="tour-tab" data-bs-toggle="tab" data-bs-target="#tour" type="button" role="tab" aria-controls="tour" aria-selected="false">Tour</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="activity-tab" data-bs-toggle="tab" data-bs-target="#activity" type="button" role="tab" aria-controls="activity" aria-selected="false">Activity</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="holiday-rentals-tab" data-bs-toggle="tab" data-bs-target="#holiday-rentals" type="button" role="tab" aria-controls="holiday-rentals" aria-selected="false">Holiday Rentals</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="car-tab" data-bs-toggle="tab" data-bs-target="#car" type="button" role="tab" aria-controls="car" aria-selected="false">Car</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="cruise-tab" data-bs-toggle="tab" data-bs-target="#cruise" type="button" role="tab" aria-controls="cruise" aria-selected="false">Cruise</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="flights-tab" data-bs-toggle="tab" data-bs-target="#flights" type="button" role="tab" aria-controls="flights" aria-selected="false">Flights</button>
+                  </li>
+                </ul>
+                <div class="tab-content mt-4" id="myTabContent">
+                  <div class="tab-pane fade show active" id="hotel" role="tabpanel" aria-labelledby="hotel-tab">
+                    <div class="row">
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Hotel List</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Hotel List v1</a></li>
+                            <li><a class="dropdown-item" href="#">Hotel List v2</a></li>
+                            <li><a class="dropdown-item" href="#">Hotel List v3</a></li>
+                            <li><a class="dropdown-item" href="#">Hotel List v4</a></li>
+                            <li><a class="dropdown-item" href="#">Hotel List v5</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Hotel Single</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Hotel Single v1</a></li>
+                            <li><a class="dropdown-item" href="#">Hotel Single v2</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Hotel Booking</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Booking Page</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-5">
+                        <div class="tav-item-content">
+                          <div class="tav-item-sub-content">
+                            <h2>Things to do on <br>
+                              your trip</h2>
+                            <button class="button h-50 px-30 -blue-1 text-dark-1 bg-white mt-20">Experinces</button>
+                          </div>
+                          <div class="text-center">
+                            <img src="assets/images/7.png" alt="image" class="rounded-2 js-lazy">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tour" role="tabpanel" aria-labelledby="tour-tab">
+                    <div class="row">
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Tour List</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Tour List v1</a></li>
+                            <li><a class="dropdown-item" href="#">Tour List v2</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Tour Pages</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Tour Map</a></li>
+                            <li><a class="dropdown-item" href="#">Tour Single</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col">
+                      </div>
+                      <div class="col-5">
+                        <div class="tav-item-content">
+                          <div class="tav-item-sub-content">
+                            <h2>Things to do on <br>
+                              your trip</h2>
+                            <button class="button h-50 px-30 -blue-1 text-dark-1 bg-white mt-20">Experinces</button>
+                          </div>
+                          <img src="assets/images/7.png" alt="image" class="rounded-2 js-lazy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="activity" role="tabpanel" aria-labelledby="activity-tab">
+                    <div class="row">
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Activity List</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Activity List v1</a></li>
+                            <li><a class="dropdown-item" href="#">Activity List v2</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Activity Pages</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Activity Map</a></li>
+                            <li><a class="dropdown-item" href="#">Activity Single</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col"></div>
+                      <div class="col-5">
+                        <div class="tav-item-content">
+                          <div class="tav-item-sub-content">
+                            <h2>Things to do on <br>
+                              your trip</h2>
+                            <button class="button h-50 px-30 -blue-1 text-dark-1 bg-white mt-20">Experinces</button>
+                          </div>
+                          <img src="assets/images/7.png" alt="image" class="rounded-2 js-lazy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="holiday-rentals" role="tabpanel" aria-labelledby="holiday-rentals-tab">
+                    <div class="row">
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Rental List</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Rental List v1</a></li>
+                            <li><a class="dropdown-item" href="#">Rental List v2</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Rental Pages</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Rental Map</a></li>
+                            <li><a class="dropdown-item" href="#">Rental Single</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col"></div>
+                      <div class="col-5">
+                        <div class="tav-item-content">
+                          <div class="tav-item-sub-content">
+                            <h2>Things to do on <br>
+                              your trip</h2>
+                            <button class="button h-50 px-30 -blue-1 text-dark-1 bg-white mt-20">Experinces</button>
+                          </div>
+                          <img src="assets/images/7.png" alt="image" class="rounded-2 js-lazy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="car" role="tabpanel" aria-labelledby="car-tab">
+                    <div class="row">
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Car List</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Car List v1</a></li>
+                            <li><a class="dropdown-item" href="#">Car List v2</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Car Pages</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Car Map</a></li>
+                            <li><a class="dropdown-item" href="#">Car Single</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col"></div>
+                      <div class="col-5">
+                        <div class="tav-item-content">
+                          <div class="tav-item-sub-content">
+                            <h2>Things to do on <br>
+                              your trip</h2>
+                            <button class="button h-50 px-30 -blue-1 text-dark-1 bg-white mt-20">Experinces</button>
+                          </div>
+                          <img src="assets/images/7.png" alt="image" class="rounded-2 js-lazy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="cruise" role="tabpanel" aria-labelledby="cruise-tab">
+                    <div class="row">
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Cruise List</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Cruise List v1</a></li>
+                            <li><a class="dropdown-item" href="#">Cruise List v2</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Cruise Pages</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Cruise Map</a></li>
+                            <li><a class="dropdown-item" href="#">Cruise Single</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col"></div>
+                      <div class="col-5">
+                        <div class="tav-item-content">
+                          <div class="tav-item-sub-content">
+                            <h2>Things to do on <br>
+                              your trip</h2>
+                            <button class="button h-50 px-30 -blue-1 text-dark-1 bg-white mt-20">Experinces</button>
+                          </div>
+                          <img src="assets/images/7.png" alt="image" class="rounded-2 js-lazy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="flights" role="tabpanel" aria-labelledby="flights-tab">
+                    <div class="row">
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Flight List</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Flight List v1</a></li>
+                            <li><a class="dropdown-item" href="#">Flight List v2</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="tav-item-content">
+                          <div class="tav-item-title">Flight Pages</div>
+                          <ul class="tav-item-content-dropdown">
+                            <li><a class="dropdown-item" href="#">Flight Map</a></li>
+                            <li><a class="dropdown-item" href="#">Flight Single</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col"></div>
+                      <div class="col-5">
+                        <div class="tav-item-content">
+                          <div class="tav-item-sub-content">
+                            <h2>Things to do on <br>
+                              your trip</h2>
+                            <button class="button h-50 px-30 -blue-1 text-dark-1 bg-white mt-20">Experinces</button>
+                          </div>
+                          <img src="assets/images/7.png" alt="image" class="rounded-2 js-lazy">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Destinations</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+              <div class="dropdown-menu px-3 rounded-3 border-0 shadow">
+                <ul>
+                  <li><a class="dropdown-item" href="#">Blog list v1</a></li>
+                  <li><a class="dropdown-item" href="#">Blog list v2</a></li>
+                  <li><a class="dropdown-item" href="#">Blog list v3</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+              </a>
+              <div class="dropdown-menu px-3 rounded-3 border-0 shadow">
+                <ul>
+                  <li><a class="dropdown-item" href="#">404</a></li>
+                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><a class="dropdown-item" href="#">Become expert</a></li>
+                  <li><a class="dropdown-item" href="#">Help center</a></li>
+                  <li><a class="dropdown-item" href="#">Login</a></li>
+                  <li><a class="dropdown-item" href="#">Register</a></li>
+                  <li><a class="dropdown-item" href="#">Terms</a></li>
+                  <li><a class="dropdown-item" href="#">Invoice</a></li>
+                  <li><a class="dropdown-item" href="#">UI elements</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dashboard
+              </a>
+              <div class="dropdown-menu px-3 rounded-3 border-0 shadow">
+                <ul>
+                  <li><a class="dropdown-item" href="#">Dashboard</a></li>
+                  <li><a class="dropdown-item" href="#">Booking</a></li>
+                  <li><a class="dropdown-item" href="#">Settings</a></li>
+                  <li><a class="dropdown-item" href="#">Wishlist</a></li>
+                  <li><a class="dropdown-item" href="#">Vendor dashboard</a></li>
+                  <li><a class="dropdown-item" href="#">Vendor add hotel</a></li>
+                  <li><a class="dropdown-item" href="#">Vendor booking</a></li>
+                  <li><a class="dropdown-item" href="#">Vendor hotels</a></li>
+                  <li><a class="dropdown-item" href="#">Vendor recovery</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown ml-5">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                USD
+              </a>
+              <!-- <div class="dropdown-menu px-3 rounded-3 border-0 shadow">
+                <ul>
+                    <li><a class="dropdown-item" href="#">USD dropdown</a></li>
+                </ul>
+              </div> -->
+            </li>
+            <li class="nav-item dropdown ml-5">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img class="rounded-5" src="assets/images/lang.png" alt=""> United Kingdom
+              </a>
+              <!-- <div class="dropdown-menu px-3 rounded-3 border-0 shadow">
+                <ul>
+                    <li><a class="dropdown-item" href="#">USD dropdown</a></li>
+                </ul>
+              </div> -->
+            </li>
+          </ul>
+          <form class="d-flex justify-content-between btn-group" role="button">
+            <button class="btn btn-light text-dark" type="submit">Become An Expert</button>
+            <button class="btn btn-outline-light text-light" type="submit">Sign In / Register</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Mobile Menu Start Here -->
+    <section class="m-menu">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-7 mt-3 col-md-4 col-sm-6">
+            <a class="navbar-brand" href="#">
+              <img src="assets/images/logo-light.svg" alt="">
+            </a>
+          </div>
+          <div class="col-lg-5 col-md-8 col-sm-6">
+            <form class="d-flex justify-content-between align-items-center btn-group" role="button">
+              <button class="btn btn-light text-dark" type="submit">Become An Expert</button>
+              <button class="btn btn-outline-light text-light" type="submit">Sign In / Register</button>
+              <div class="user">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+              </div>
+              <div class="menu">
+                <p data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" 
+                            aria-controls="offcanvasExample">
+                  <i class="fa fa-bars mt-3" aria-hidden="true"></i>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div id="toggleMenu">
+          <div class="m-h-menu">
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-body">
+                <div class="row">
+                  <div class="col-lg-7 col-md-4 col-sm-6">
+                    <a class="navbar-brand" href="#">
+                      <img src="assets/images/logo-dark.svg" alt="">
+                    </a>
+                  </div>
+                  <div class="col-lg-5 col-md-8 col-sm-6">
+                    <form class="d-flex justify-content-end align-items-center btn-group">
+                      <div class="user">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                      </div>
+                      <div class="menu" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <i class="fa fa-x" aria-hidden="true"></i>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <ul id="accordion" class="accordion">
+                  <li>
+                    <div class="link">
+                      <span>Home</span>
+                      <i class="fa fa-chevron-right"></i>
+                    </div>
+                    <ul class="submenu">
+                      <li><a href="#">Home 1</a></li>
+                      <li><a href="#">Home 2</a></li>
+                      <li><a href="#">Home 3</a></li>
+                      <li><a href="#">Home 4</a></li>
+                      <li><a href="#">Home 5</a></li>
+                      <li><a href="#">Home 6</a></li>
+                      <li><a href="#">Home 7</a></li>
+                      <li><a href="#">Home 8</a></li>
+                      <li><a href="#">Home 9</a></li>
+                      <li><a href="#">Home 10</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="link">
+                      <span>Category</span>
+                      <i class="fa fa-chevron-right"></i>
+                    </div>
+                    <ul class="submenu">
+                      <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-1" aria-expanded="false" aria-controls="flush-1">
+                              Hotel
+                            </button>
+                          </h2>
+                          <div id="flush-1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <ul class="accordion-menu">
+                                <li><a href="#">Hotel List v1</a></li>
+                                <li><a href="#">Hotel List v2</a></li>
+                                <li><a href="#">Hotel Single v1</a></li>
+                                <li><a href="#">Hotel Single v2</a></li>
+                                <li><a href="#">Booking Page</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-2" aria-expanded="false" aria-controls="flush-2">
+                              Tour
+                            </button>
+                          </h2>
+                          <div id="flush-2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <ul class="accordion-menu">
+                                <li><a href="#">Tour List v1</a></li>
+                                <li><a href="#">Tour List v2</a></li>
+                                <li><a href="#">Tour Map</a></li>
+                                <li><a href="#">Tour Single</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-3" aria-expanded="false" aria-controls="flush-3">
+                              Rental
+                            </button>
+                          </h2>
+                          <div id="flush-3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <ul class="accordion-menu">
+                                <li><a href="#">Rental List v1</a></li>
+                                <li><a href="#">Rental List v2</a></li>
+                                <li><a href="#">Rental Map</a></li>
+                                <li><a href="#">Rental Single</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-4" aria-expanded="false" aria-controls="flush-4">
+                              Activity
+                            </button>
+                          </h2>
+                          <div id="flush-4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <ul class="accordion-menu">
+                                <li><a href="#">Activity List v1</a></li>
+                                <li><a href="#">Activity List v2</a></li>
+                                <li><a href="#">Activity Map</a></li>
+                                <li><a href="#">Activity Single</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-5" aria-expanded="false" aria-controls="flush-5">
+                              Car
+                            </button>
+                          </h2>
+                          <div id="flush-5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <ul class="accordion-menu">
+                                <li><a href="#">Car List v1</a></li>
+                                <li><a href="#">Car List v2</a></li>
+                                <li><a href="#">Car Map</a></li>
+                                <li><a href="#">Car Single</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-6" aria-expanded="false" aria-controls="flush-6">
+                              Cruise
+                            </button>
+                          </h2>
+                          <div id="flush-6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <ul class="accordion-menu">
+                                <li><a href="#">Cruise List v1</a></li>
+                                <li><a href="#">Cruise List v2</a></li>
+                                <li><a href="#">Cruise Map</a></li>
+                                <li><a href="#">Cruise Single</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-7" aria-expanded="false" aria-controls="flush-7">
+                              Flight
+                            </button>
+                          </h2>
+                          <div id="flush-7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                              <ul class="accordion-menu">
+                                <li><a href="#">Flight List v1</a></li>
+                                <li><a href="#">Flight List v2</a></li>
+                                <li><a href="#">Flight Map</a></li>
+                                <li><a href="#">Flight Single</a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="link">
+                      <span>Blog</span>
+                      <i class="fa fa-chevron-right"></i>
+                    </div>
+                    <ul class="submenu">
+                      <li><a href="#">Blog list v1</a></li>
+                      <li><a href="#">Blog list v2</a></li>
+                      <li><a href="#">Blog Single</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="link">
+                      <span>Pages</span>
+                      <i class="fa fa-chevron-right"></i>
+                    </div>
+                    <ul class="submenu">
+                      <li><a href="#">404</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Become expert</a></li>
+                      <li><a href="#">Help center</a></li>
+                      <li><a href="#">Login</a></li>
+                      <li><a href="#">Register</a></li>
+                      <li><a href="#">Terms</a></li>
+                      <li><a href="#">Invoice</a></li>
+                      <li><a href="#">UI elements</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="link">
+                      <span>Dashboard</span>
+                      <i class="fa fa-chevron-right"></i>
+                    </div>
+                    <ul class="submenu">
+                      <li><a href="#">Booking</a></li>
+                      <li><a href="#">Dashboard</a></li>
+                      <li><a href="#">Settings</a></li>
+                      <li><a href="#">Wishlist</a></li>
+                      <li><a href="#">Vendor dashboard</a></li>
+                      <li><a href="#">Vendor add hotel</a></li>
+                      <li><a href="#">Vendor booking</a></li>
+                      <li><a href="#">Vendor hotels</a></li>
+                      <li><a href="#">Vendor recovery</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="link"><span>Contact</span></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Mobile Menu Start End -->
+  </header>
+  <!-- Header End Here-->
+  <!-- Hero starts here-->
+  <div class="hero">
+    <div class="container">
+      <div class="d-flex justify-content-center align-items-center text-center hero-container">
+        <div class="hero-content text-white text-center">
+          <div class="mb-5">
+            <h1>Find Next Place To Visit</h1>
+            <p>Discover amzaing places at exclusive deals</p>
+          </div>
+          <ul class="nav nav-tabs hero-tabs text-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="hotel-tab" data-bs-toggle="tab" data-bs-target="#hotel" type="button" role="tab" aria-controls="hotel" aria-selected="hotel">Hotel</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="tour-tab" data-bs-toggle="tab" data-bs-target="#tour" type="button" role="tab" aria-controls="tour" aria-selected="false">Tour</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="activity-tab" data-bs-toggle="tab" data-bs-target="#activity" type="button" role="tab" aria-controls="activity" aria-selected="false">Activity</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="holiday-rentals-tab" data-bs-toggle="tab" data-bs-target="#holiday-rentals" type="button" role="tab" aria-controls="holiday-rentals" aria-selected="false">Holiday Rentals</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="car-tab" data-bs-toggle="tab" data-bs-target="#car" type="button" role="tab" aria-controls="car" aria-selected="false">Car</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="cruise-tab" data-bs-toggle="tab" data-bs-target="#cruise" type="button" role="tab" aria-controls="cruise" aria-selected="false">Cruise</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="flights-tab" data-bs-toggle="tab" data-bs-target="#flights" type="button" role="tab" aria-controls="flights" aria-selected="false">Flights</button>
+            </li>
+          </ul>
+          <div class="masthead">
+            <div class="masthead-content d-flex md-block justify-content-center align-items-center">
+              <div class="masthead-item">
+                <p>Location</p>
+                <input type="text" placeholder="here are you going?">
+              </div>
+              <div class="masthead-item">
+                <p>Check in - Check out</p>
+                <div class="capitalize">
+                  <span class="js-first-date">Wed 2 Mar - </span>
+                  <span class="js-last-date">Fri 11 Apr</span>
+                </div>
+              </div>
+              <div class="masthead-item masthead-item-3">
+                <p>Guest</p>
+                <div class="capitalize">
+                  <span class="js-first-date">2 adults -  </span>
+                  <span class="js-last-date">1 childeren - </span>
+                  <span class="js-last-date">1 room</span>
+                </div>
+              </div>
+              <div class="masthead-item masthead-last-item">
+                <button>
+                  <span>Search</span>
+                  <i class="fa fa-search text-20 mr-10"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Popular Destinations starts Here -->
+<section class="popular-destinations">
+  <div class="container">
+    <div class="section-title">
+      <h1>Popular Destinations</h1>
+      <p>These popular destinations have a lot to offer</p>
+    </div>
+    <div class="view-all-destinations-btn">
+      <a href="#">View All Destinations</a>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="popular-card-item">
+          <img src="https://res.cloudinary.com/dqstmox0s/image/upload/v1718992749/02_walm5o.jpg" alt="">
+          <div class="overlay">
+            <h2>A day on the beach</h2>
+            <button>Discover</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="popular-card-item">
+          <img src="https://res.cloudinary.com/dqstmox0s/image/upload/v1718992749/Mejores-espetos-de-Malaga-1024x683_vwr9jt.jpg" alt="">
+          <div class="overlay">
+            <h2>Traditional lunch</h2>
+            <button>Discover</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="popular-card-item">
+          <img src="https://res.cloudinary.com/dqstmox0s/image/upload/v1718992749/2024-05-10_spx4lj.jpg" alt="">
+          <div class="overlay">
+            <h2>Sunset & Drinks</h2>
+            <button>Discover</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="popular-card-item">
+          <img src="https://res.cloudinary.com/dqstmox0s/image/upload/v1718992749/6497_Fill_670_0_agvf5t.jpg" alt="">
+          <div class="overlay">
+            <h2>Dinner & cocktails</h2>
+            <button>Discover</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Popular Destinations End Here -->
+<!-- layout Start Here -->
+<section class="layout">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="layout-item">
+          <img src="https://res.cloudinary.com/dqstmox0s/image/upload/v1718992749/1705137372_w4wwwh.jpg" alt="Layout Image">
+          <div class="layout-overlay">
+            <h2>Top 5 tapas for dinner</h2>
+            <button>View article</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="layout-item">
+          <img src="https://res.cloudinary.com/dqstmox0s/image/upload/v1718992749/27490384Master_gtuglx.jpg" alt="Layout Image">
+          <div class="layout-overlay">
+            <h2>Top 5 rooftops Málaga</h2>
+            <button>View article</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- layout End Here -->
+<!-- trip Start Here -->
+<section class="trip">
+  <div class="container">
+    <div class="section-title" style="text-align: left">
+      <h2>Recommended</h2>
+      <p>Interdum et malesuada fames ac ante ipsum</p>
+    </div>
+    <div id="myCarousel" class="carousel slide container" data-bs-ride="carousel">
+      <div class="carousel-inner w-100">
+        <div class="carousel-item active">
+          <div class="col-lg-3 col-md-6">
+            <div class="carousel-content">
+              <img class="img-fluid" src="assets/images/hotels/1.png">
+              <a href="#">The Montcalm At Brewery London <br>
+                City</a>
+              <div class="text-content">
+                <small>Westminster Borough, London</small>
+                <div class="d-flex items-center mb-2">
+                  <div class="bg-blue rounded-2">4.8</div>
+                  <div class="exceptional">Exceptional</div>
+                  <div class="reviews">3,014 reviews</div>
+                </div>
+                <div class="fw-500">
+                  <strong> Starting from  <span style="color:#3554d1" >US$72</span> </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-3 col-md-6">
+            <div class="carousel-content">
+              <img class="img-fluid" src="assets/images/hotels/2.png">
+              <a href="#">Staycity Aparthotels Deptford Bridge <br>
+                Station</a>
+              <div class="text-content">
+                <small>Ciutat Vella, Barcelona</small>
+                <div class="d-flex items-center mb-2">
+                  <div class="bg-blue rounded-2">4.8</div>
+                  <div class="exceptional">Exceptional</div>
+                  <div class="reviews">3,014 reviews</div>
+                </div>
+                <div class="fw-500">
+                  <strong> Starting from  <span style="color:#3554d1" >US$72</span> </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-3 col-md-6">
+            <div class="carousel-content">
+              <img class="img-fluid" src="assets/images/hotels/3.png">
+              <a href="#">The Westin New York at Times <br>
+                Square</a>
+              <div class="text-content">
+                <small>Manhattan, New York</small>
+                <div class="d-flex items-center mb-2">
+                  <div class="bg-blue rounded-2">4.8</div>
+                  <div class="exceptional">Exceptional</div>
+                  <div class="reviews">3,014 reviews</div>
+                </div>
+                <div class="fw-500">
+                  <strong> Starting from  <span style="color:#3554d1" >US$72</span> </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-3 col-md-6">
+            <div class="carousel-content">
+              <img class="img-fluid" src="assets/images/hotels/4.png">
+              <a href="#">DoubleTree by Hilton Hotel New York <br>
+                Times Square West</a>
+              <div class="text-content">
+                <small>Vaticano Prati, Rome</small>
+                <div class="d-flex items-center mb-2">
+                  <div class="bg-blue rounded-2">4.8</div>
+                  <div class="exceptional">Exceptional</div>
+                  <div class="reviews">3,014 reviews</div>
+                </div>
+                <div class="fw-500">
+                  <strong> Starting from  <span style="color:#3554d1" >US$72</span> </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-3 col-md-6">
+            <div class="carousel-content">
+              <img class="img-fluid" src="assets/images/hotels/5.png">
+              <a href="#">The Montcalm At Brewery London <br>
+                City</a>
+              <div class="text-content">
+                <small>Westminster Borough, London</small>
+                <div class="d-flex items-center mb-2">
+                  <div class="bg-blue rounded-2">4.8</div>
+                  <div class="exceptional">Exceptional</div>
+                  <div class="reviews">3,014 reviews</div>
+                </div>
+                <div class="fw-500">
+                  <strong> Starting from  <span style="color:#3554d1" >US$72</span> </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-3 col-md-6">
+            <div class="carousel-content">
+              <img class="img-fluid" src="assets/images/hotels/2.png">
+              <a href="#">Staycity Aparthotels Deptford Bridge <br>
+                Station</a>
+              <div class="text-content">
+                <small>Ciutat Vella, Barcelona</small>
+                <div class="d-flex items-center mb-2">
+                  <div class="bg-blue rounded-2">4.8</div>
+                  <div class="exceptional">Exceptional</div>
+                  <div class="reviews">3,014 reviews</div>
+                </div>
+                <div class="fw-500">
+                  <strong> Starting from  <span style="color:#3554d1" >US$72</span> </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-3 col-md-6">
+            <div class="carousel-content">
+              <img class="img-fluid" src="assets/images/hotels/7.png">
+              <a href="#">The Montcalm At Brewery London <br>
+                City</a>
+              <div class="text-content">
+                <small>Westminster Borough, London</small>
+                <div class="d-flex items-center mb-2">
+                  <div class="bg-blue rounded-2">4.8</div>
+                  <div class="exceptional">Exceptional</div>
+                  <div class="reviews">3,014 reviews</div>
+                </div>
+                <div class="fw-500">
+                  <strong> Starting from  <span style="color:#3554d1" >US$72</span> </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-lg-3 col-md-6">
+            <div class="carousel-content">
+              <img class="img-fluid" src="assets/images/hotels/8.png">
+              <a href="#">The Montcalm At Brewery London <br>
+                City</a>
+              <div class="text-content">
+                <small>Westminster Borough, London</small>
+                <div class="d-flex items-center mb-2">
+                  <div class="bg-blue rounded-2">4.8</div>
+                  <div class="exceptional">Exceptional</div>
+                  <div class="reviews">3,014 reviews</div>
+                </div>
+                <div class="fw-500">
+                  <strong> Starting from  <span style="color:#3554d1" >US$72</span> </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+<!-- trip End Here -->
+<!-- trip Start Here -->
+<section class="trip">
+  <div class="container">
+    <div class="section-title">
+      <h2>Get inspiration for your next trip</h2>
+      <p>Interdum et malesuada fames</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="trip-item">
+          <img src="assets/images/trip/1.png" alt="">
+          <p>10 European ski destinations you should visit this winter</p>
+          <small>April 06, 2022</small>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="trip-item">
+          <img src="assets/images/trip/2.png" alt="">
+          <p>Booking travel during Corona: good advice in an uncertain time</p>
+          <small>April 06, 2022</small>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="trip-item">
+          <img src="assets/images/trip/3.png" alt="">
+          <p>Where can I go? 5 amazing countries that are open right now</p>
+          <small>April 06, 2022</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- trip End Here -->
+<!-- Subscribe Start Here -->
+<section class="subscribe">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="subscribe-left">
+          <div class="d-flex justify-content-start align-items-center subscribe-items">
+            <div class="subscribe-item-left">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+            <div class="subscribe-item-right">
+              <h2>Your Travel Journey Starts Here</h2>
+              <p>Sign up and we'll send the best deals to you</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 m-auto">
+        <div class="subscribe-right">
+          <input class="bg-white h-60" type="text" placeholder="Your Email">
+          <button class="button -md h-60 bg-blue-1 text-white">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Subscribe End Here -->
+<!-- Footer Start Here -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-item">
+          <h3>Contact Us</h3>
+          <p>Toll Free Customer Care</p>
+          <h2><a href="#">+(1) 123 456 7890</a></h2>
+          <p>Need live support?</p>
+          <h2><a href="#">hi@gotrip.com</a></h2>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-item">
+          <h3>Company</h3>
+          <div class="footer-menu">
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+            <a href="#">Press</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Magazine</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-item">
+          <h3>Support</h3>
+          <div class="footer-menu">
+            <a href="#">Contact</a>
+            <a href="#">Legal Notice</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Sitemap</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="footer-item">
+          <h3>Other Services</h3>
+          <div class="footer-menu">
+            <a href="#">Car hire</a>
+            <a href="#">Activity Finder</a>
+            <a href="#">Tour List</a>
+            <a href="#">Flight finder</a>
+            <a href="#">Cruise Ticket</a>
+            <a href="#">Holiday Rental</a>
+            <a href="#">Travel Agents</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="copy-right">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="copy-right-left d-flex align-items-center">
+            <p>© 2022 GoTrip LLC All rights reserved. </p>
+            <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Site Map</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="social-medi">
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa fa-globe"></i>
+                  <span>English (US)</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-usd"></i>
+                  <span>USD</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer End Here -->
